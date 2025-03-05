@@ -28,10 +28,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // 创建状态栏项
-        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
+        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         
         if let button = statusItem?.button {
             button.image = NSImage(systemSymbolName: "star", accessibilityDescription: "Menu Bar App")
+            button.title = "ABC"
             button.action = #selector(togglePopover(_:))
         }
         
@@ -47,7 +48,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             if popover?.isShown == true {
                 popover?.performClose(sender)
             } else {
-                popover?.show(relativeTo: button.bounds, of: button, preferredEdge: .minY)
+                popover?.show(relativeTo: button.frame, of: button, preferredEdge: .maxY)
             }
         }
     }

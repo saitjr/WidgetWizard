@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7FB9D52D7674A300CFEF2E /* MenuBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9D42D7674A300CFEF2E /* MenuBarViewModel.swift */; };
+		9B7FB9D62D7674A300CFEF2E /* MenuBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9D42D7674A300CFEF2E /* MenuBarViewModel.swift */; };
+		9B7FB9D72D7674A300CFEF2E /* MenuBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9D42D7674A300CFEF2E /* MenuBarViewModel.swift */; };
+		9B7FB9D92D7675B600CFEF2E /* MenuBarTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9D82D7675B600CFEF2E /* MenuBarTitleButton.swift */; };
+		9B7FB9DA2D7675B600CFEF2E /* MenuBarTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9D82D7675B600CFEF2E /* MenuBarTitleButton.swift */; };
+		9B7FB9DB2D7675B600CFEF2E /* MenuBarTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9D82D7675B600CFEF2E /* MenuBarTitleButton.swift */; };
+		9B7FB9DD2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9DC2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift */; };
+		9B7FB9DE2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9DC2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift */; };
+		9B7FB9DF2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9DC2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift */; };
+		9B7FB9E12D76776900CFEF2E /* TickTickRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9E02D76776900CFEF2E /* TickTickRequester.swift */; };
+		9B7FB9E22D76776900CFEF2E /* TickTickRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9E02D76776900CFEF2E /* TickTickRequester.swift */; };
+		9B7FB9E32D76776900CFEF2E /* TickTickRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9E02D76776900CFEF2E /* TickTickRequester.swift */; };
+		9B7FB9E52D76781200CFEF2E /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B7FB9E42D76781200CFEF2E /* mock.json */; };
+		9B7FB9E62D76781200CFEF2E /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B7FB9E42D76781200CFEF2E /* mock.json */; };
+		9B7FB9E72D76781200CFEF2E /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B7FB9E42D76781200CFEF2E /* mock.json */; };
+		9B7FB9E92D77CCE800CFEF2E /* MenuBarTitleButtonViewModel.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FB9E82D77CCE800CFEF2E /* MenuBarTitleButtonViewModel.test.swift */; };
 		9BDC50502D3F701F0099ECEE /* WidgetWizardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC504F2D3F701F0099ECEE /* WidgetWizardApp.swift */; };
 		9BDC50522D3F701F0099ECEE /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC50512D3F701F0099ECEE /* MenuBarView.swift */; };
 		9BDC50542D3F70210099ECEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDC50532D3F70210099ECEE /* Assets.xcassets */; };
@@ -31,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B7FB9D42D7674A300CFEF2E /* MenuBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarViewModel.swift; sourceTree = "<group>"; };
+		9B7FB9D82D7675B600CFEF2E /* MenuBarTitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarTitleButton.swift; sourceTree = "<group>"; };
+		9B7FB9DC2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarTitleButtonViewModel.swift; sourceTree = "<group>"; };
+		9B7FB9E02D76776900CFEF2E /* TickTickRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickTickRequester.swift; sourceTree = "<group>"; };
+		9B7FB9E42D76781200CFEF2E /* mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		9B7FB9E82D77CCE800CFEF2E /* MenuBarTitleButtonViewModel.test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarTitleButtonViewModel.test.swift; sourceTree = "<group>"; };
 		9BDC504C2D3F701F0099ECEE /* WidgetWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDC504F2D3F701F0099ECEE /* WidgetWizardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetWizardApp.swift; sourceTree = "<group>"; };
 		9BDC50512D3F701F0099ECEE /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
@@ -66,6 +88,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B7FB9CD2D76742900CFEF2E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9B7FB9CE2D76742900CFEF2E /* TickTickMenuBar */,
+				9B7FB9CF2D76742900CFEF2E /* Package */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9B7FB9CE2D76742900CFEF2E /* TickTickMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				9BDC50512D3F701F0099ECEE /* MenuBarView.swift */,
+				9B7FB9D42D7674A300CFEF2E /* MenuBarViewModel.swift */,
+				9B7FB9D82D7675B600CFEF2E /* MenuBarTitleButton.swift */,
+				9B7FB9DC2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift */,
+				9B7FB9E82D77CCE800CFEF2E /* MenuBarTitleButtonViewModel.test.swift */,
+			);
+			path = TickTickMenuBar;
+			sourceTree = "<group>";
+		};
+		9B7FB9CF2D76742900CFEF2E /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				9B7FB9D02D76742900CFEF2E /* API */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		9B7FB9D02D76742900CFEF2E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9B7FB9D12D76742900CFEF2E /* TickTick */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9B7FB9D12D76742900CFEF2E /* TickTick */ = {
+			isa = PBXGroup;
+			children = (
+				9B7FB9E02D76776900CFEF2E /* TickTickRequester.swift */,
+				9B7FB9E42D76781200CFEF2E /* mock.json */,
+			);
+			path = TickTick;
+			sourceTree = "<group>";
+		};
 		9BDC50432D3F701F0099ECEE = {
 			isa = PBXGroup;
 			children = (
@@ -87,8 +155,8 @@
 		9BDC504E2D3F701F0099ECEE /* WidgetWizard */ = {
 			isa = PBXGroup;
 			children = (
+				9B7FB9CD2D76742900CFEF2E /* src */,
 				9BDC504F2D3F701F0099ECEE /* WidgetWizardApp.swift */,
-				9BDC50512D3F701F0099ECEE /* MenuBarView.swift */,
 				9BDC50532D3F70210099ECEE /* Assets.xcassets */,
 				9BDC50582D3F70210099ECEE /* WidgetWizard.entitlements */,
 				9BDC50552D3F70210099ECEE /* Preview Content */,
@@ -175,10 +243,12 @@
 					};
 					9BDC505C2D3F70210099ECEE = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1510;
 						TestTargetID = 9BDC504B2D3F701F0099ECEE;
 					};
 					9BDC50662D3F70210099ECEE = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1510;
 						TestTargetID = 9BDC504B2D3F701F0099ECEE;
 					};
 				};
@@ -210,6 +280,7 @@
 			files = (
 				9BDC50572D3F70210099ECEE /* Preview Assets.xcassets in Resources */,
 				9BDC50542D3F70210099ECEE /* Assets.xcassets in Resources */,
+				9B7FB9E52D76781200CFEF2E /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7FB9E62D76781200CFEF2E /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7FB9E72D76781200CFEF2E /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,8 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7FB9D52D7674A300CFEF2E /* MenuBarViewModel.swift in Sources */,
+				9B7FB9DD2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift in Sources */,
+				9B7FB9E12D76776900CFEF2E /* TickTickRequester.swift in Sources */,
 				9BDC50522D3F701F0099ECEE /* MenuBarView.swift in Sources */,
 				9BDC50502D3F701F0099ECEE /* WidgetWizardApp.swift in Sources */,
+				9B7FB9D92D7675B600CFEF2E /* MenuBarTitleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7FB9E92D77CCE800CFEF2E /* MenuBarTitleButtonViewModel.test.swift in Sources */,
+				9B7FB9E22D76776900CFEF2E /* TickTickRequester.swift in Sources */,
+				9B7FB9DE2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift in Sources */,
+				9B7FB9D62D7674A300CFEF2E /* MenuBarViewModel.swift in Sources */,
+				9B7FB9DA2D7675B600CFEF2E /* MenuBarTitleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7FB9E32D76776900CFEF2E /* TickTickRequester.swift in Sources */,
+				9B7FB9DF2D7675D400CFEF2E /* MenuBarTitleButtonViewModel.swift in Sources */,
+				9B7FB9D72D7674A300CFEF2E /* MenuBarViewModel.swift in Sources */,
+				9B7FB9DB2D7675B600CFEF2E /* MenuBarTitleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +485,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WidgetWizard/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = EPY6FQ3R94;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -429,7 +515,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WidgetWizard/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = EPY6FQ3R94;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,6 +538,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EPY6FQ3R94;
@@ -461,6 +548,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.MagicWizardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "WidgetWizard/src/TickTickMenuBar/WidgetWizardTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WidgetWizard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WidgetWizard";
 			};
@@ -471,6 +560,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EPY6FQ3R94;
@@ -480,6 +570,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.MagicWizardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "WidgetWizard/src/TickTickMenuBar/WidgetWizardTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WidgetWizard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WidgetWizard";
 			};
@@ -489,6 +580,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EPY6FQ3R94;
@@ -497,6 +589,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.MagicWizardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "WidgetWizard/src/TickTickMenuBar/WidgetWizardUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = MagicWizard;
 			};
@@ -506,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EPY6FQ3R94;
@@ -514,6 +609,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.MagicWizardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "WidgetWizard/src/TickTickMenuBar/WidgetWizardUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = MagicWizard;
 			};
